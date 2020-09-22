@@ -1,0 +1,6 @@
+name: pulumi_sample_codebuild
+runtime:
+  name: python
+  options:
+    virtualenv: .venv
+description: A minimal AWS Python Pulumi program
