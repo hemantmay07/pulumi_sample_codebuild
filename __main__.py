@@ -6,12 +6,12 @@ import json
 import os
 
 github_token = os.environ["CI_GITHUB_TOKEN"]
-repo_url = "https://github.com/edalongeville/pulumi_sample_codebuild.git"
+repo_url = "https://github.com/hemantmay07/pulumi_sample_codebuild.git"
 
 
 provider = Provider(
     resource_name="sample-aws-provider",
-    region="eu-west-1"
+    region="ap-south-1"
 )
 
 # https://github.com/terraform-providers/terraform-provider-aws/issues/7435
